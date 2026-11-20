@@ -1,0 +1,15 @@
+action,count,why,examples
+repeat rows removed (exact copy),6,same student id and same numbers,"S055, S214, S174, S079, S013"
+repeat rows removed (different numbers),1,"same student id, different numbers; first row kept",S074
+hours: text,4,"number written with a unit, like '12 hrs' or '78%'","S199, S166, S059, S043"
+hours: word,5,"number written as a word, like 'ten'","S207, S002, S188, S196, S190"
+hours: gap,3,empty / NA / n/a: left as a gap,"S162, S108, S156"
+prior: gap,3,empty / NA / n/a: left as a gap,"S211, S124, S228"
+final: text,7,"number written with a unit, like '12 hrs' or '78%'","S015, S055, S132, S066, S018"
+final: gap,8,empty / NA / n/a: left as a gap,"S142, S006, S119, S009, S177"
+section spelling fixed,111,"e.g. 'Sec b', ' B-' -> B","S050, S138, S015, S055, S105"
+section unknown,0,could not tell the section,
+hours: impossible value,3,outside 0-100,"S168=940, S130=-3, S167=120"
+prior: impossible value,1,outside 0-100,S189=-5
+final: impossible value,1,outside 0-100,S017=130
+rows removed: no usable final score,9,cannot study the final score without it,"S142, S006, S119, S009, S177"

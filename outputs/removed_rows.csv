@@ -1,0 +1,17 @@
+student_id,section,hours,prior,final,reason
+S055,section a,11.1,67,78%,exact repeat of an earlier row
+S214,a,14.7,71,79,exact repeat of an earlier row
+S174,section a,12.0,100,88,exact repeat of an earlier row
+S079,Sec A,8.4,43,62,exact repeat of an earlier row
+S013,section a,8.1,75,53,exact repeat of an earlier row
+S187,B,0.3,20,33,exact repeat of an earlier row
+S074,B,14.5,81,67,"same student id with DIFFERENT numbers (kept the first row, cannot know which is right)"
+S142,B,9.6,66.0,,no usable final score
+S006,B,13.0,59.0,,no usable final score
+S119,A,11.4,63.0,,no usable final score
+S009,B,7.8,70.0,,no usable final score
+S177,B,11.4,62.0,,no usable final score
+S197,C,7.9,44.0,,no usable final score
+S017,C,4.1,51.0,,no usable final score
+S080,A,9.5,61.0,,no usable final score
+S116,C,5.8,61.0,,no usable final score
